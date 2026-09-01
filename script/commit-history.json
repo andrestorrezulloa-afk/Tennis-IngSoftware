@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "AndresTorrez",
+    "commit": {
+      "date": "2026-09-01T14:28:25.000Z",
+      "message": "lo realizado en clase",
+      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 6485,
+      "additions": 3080,
+      "deletions": 3405,
+      "date": "2026-09-01"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  }
+]
