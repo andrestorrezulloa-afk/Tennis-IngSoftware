@@ -21,4 +21,31 @@ describe("Tennis", () => {
     let tennis = new Tennis();
     expect(tennis.obtenerScore()).toEqual("Love-Love");
   });
+  it("deberia devolver 15-Love porque el Jugador 1 tiene un punto y el Jugador 2 tiene 0", () => {
+    let tennis = new Tennis();
+    tennis.anotarP1();
+    expect(tennis.obtenerScore()).toEqual("15-Love");
+  });
+
+  it("deberia devolver Deuce porque el Jugador 2 tiene 3 puntos y el Jugador 1 tiene 3 puntos", () => {
+    let tennis = new Tennis();
+    tennis.anotarP2();
+    tennis.anotarP2();
+    tennis.anotarP2();
+    tennis.anotarP1();
+    tennis.anotarP1();
+    tennis.anotarP1();
+    expect(tennis.obtenerScore()).toEqual("Deuce");
+  });
+  it("deberia devolver Deuce porque el Jugador 2 tiene 3 puntos y el Jugador 1 tiene 3 puntos", () => {
+    let tennis = new Tennis();
+    tennis.anotarP2();
+    tennis.anotarP2();
+    tennis.anotarP2();
+    tennis.anotarP1();
+    tennis.anotarP1();
+    tennis.anotarP1();
+    tennis.anotarP1();
+    expect(tennis.obtenerScore()).toEqual("Advantage Player 1");
+  });
 });

@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "28918c1af2f3467734e03b6c2519a21cfa6fea7f",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-03T02:17:58.000Z",
       "message": "feat: Test devolver love-love",
-      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/28918c1af2f3467734e03b6c2519a21cfa6fea7f"
     },
     "stats": {
       "total": 5,
@@ -72,6 +72,25 @@
     },
     "coverage": 62.5,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-03T02:36:51.000Z",
+      "message": "feat: Test de demas estados",
+      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 27,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 87.5,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
