@@ -6,9 +6,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8379f216e169b41f8fa396a602035be4218e8f59",
     "commitName": "feat: test del inicion del juego",
     "commitTimestamp": 1788400892582,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Test completo de puntuacion",
+    "commitTimestamp": 1788401379562,
+    "testId": 2
   }
 ]
