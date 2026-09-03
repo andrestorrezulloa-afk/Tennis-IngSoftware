@@ -27,14 +27,12 @@ class Tennis {
             return `${nombres[this.puntosP1]}-${nombres[this.puntosP2]}`;
         }
 
-        // 3. Ventaja (ambos tienen 3 o más puntos pero están desempatados por 1)
         if (this.puntosP1 >= 3 && this.puntosP2 >= 3) {
             return this.puntosP1 > this.puntosP2 
                 ? "Advantage Player 1" 
                 : "Advantage Player 2";
         }
 
-        // 4. Puntuación regular
         return `${nombres[this.puntosP1]}-${nombres[this.puntosP2]}`;
     }
 }

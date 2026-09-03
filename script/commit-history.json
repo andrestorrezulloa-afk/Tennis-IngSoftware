@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "fb9c25b0fbe4549c0437577d0d1cdb38542c97c8",
     "author": "AndresTorrez",
     "commit": {
       "date": "2026-09-01T14:28:25.000Z",
       "message": "lo realizado en clase",
-      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/fb9c25b0fbe4549c0437577d0d1cdb38542c97c8"
     },
     "stats": {
       "total": 6485,
@@ -17,5 +17,24 @@
     "test_count": 0,
     "failed_tests": 0,
     "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-03T02:01:31.000Z",
+      "message": "feat: test del inicion del juego",
+      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 75,
+      "additions": 28,
+      "deletions": 47,
+      "date": "2026-09-03"
+    },
+    "coverage": 17.65,
+    "test_count": 3,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

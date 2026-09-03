@@ -1,14 +1,20 @@
-export Tennis from "./Tennis.js";
-const first = document.querySelector("#resultado-primer-jugador");
-const second = document.querySelector("#resultado-segundo-jugador");
+import Tennis from "./Tennis.js";
+
+const juego = new Tennis();
+
+// Seleccionamos los elementos del DOM
+const puntuacion = document.querySelector("#puntuacion");
 const buttonFirst = document.querySelector("#primer-jugador");
 const buttonSecond = document.querySelector("#segundo-jugador");
 
+// Evento para el Jugador 1
 buttonFirst.addEventListener("click", () => {
-  const firstNValue = first.innerHTML === "" ? 15 : Number.parseInt(first.innerHTML.replace("<p>", "").replace("</p>", "")) + 15;
-  first.innerHTML = "<p>" + firstNValue + "</p>";
+  juego.anotarP1();
+  puntuacion.textContent = juego.obtenerScore();
 });
+
+// Evento para el Jugador 2
 buttonSecond.addEventListener("click", () => {
-  const secondNValue = second.innerHTML === "" ? 15 : Number.parseInt(second.innerHTML.replace("<p>", "").replace("</p>", "")) + 15;
-  second.innerHTML = "<p>" + secondNValue + "</p>";
+  juego.anotarP2();
+  puntuacion.textContent = juego.obtenerScore();
 });

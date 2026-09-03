@@ -1,8 +1,14 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "fb9c25b0fbe4549c0437577d0d1cdb38542c97c8",
     "commitName": "lo realizado en clase",
     "commitTimestamp": 1788272906748,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test del inicion del juego",
+    "commitTimestamp": 1788400892582,
+    "testId": 1
   }
 ]
