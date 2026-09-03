@@ -12,9 +12,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "41f1078b9e4775e3cbf78bcd8ad6e7511c3f7b80",
     "commitName": "feat: Test completo de puntuacion",
     "commitTimestamp": 1788401379562,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Test devolver love-love",
+    "commitTimestamp": 1788401879417,
+    "testId": 3
   }
 ]

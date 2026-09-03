@@ -17,5 +17,8 @@ describe("Tennis", () => {
     tennis.anotarP2();
     expect(tennis.puntosP2).toEqual(1);
   });
-  
+  it("deberia devolver Love-Love porque ningun jugador ha anotado puntos aun", () => {
+    let tennis = new Tennis();
+    expect(tennis.obtenerScore()).toEqual("Love-Love");
+  });
 });

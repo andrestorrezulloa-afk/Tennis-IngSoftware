@@ -38,12 +38,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "41f1078b9e4775e3cbf78bcd8ad6e7511c3f7b80",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-03T02:09:38.000Z",
       "message": "feat: Test completo de puntuacion",
-      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/41f1078b9e4775e3cbf78bcd8ad6e7511c3f7b80"
     },
     "stats": {
       "total": 27,
@@ -53,6 +53,25 @@
     },
     "coverage": 25,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-03T02:17:58.000Z",
+      "message": "feat: Test devolver love-love",
+      "url": "https://github.com/andrestorrezulloa-afk/Tennis-IngSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-09-03"
+    },
+    "coverage": 62.5,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
